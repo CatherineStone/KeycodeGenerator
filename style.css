@@ -1,0 +1,33 @@
+body {
+    background-color: lavenderblush
+}
+
+#heading {
+    text-align: center;
+    font-family: Tahoma; 
+    color: pink;
+    font-size: 35px;
+}
+
+#inputBox {
+    display: none;
+}
+
+#output {
+    text-align: center;
+    font-family: Tahoma;
+    color: #DB7093;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #FFB6C1;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #inputBox {
+        margin: 10px;
+        display: block;
+        display: flex;
+    }
+}
